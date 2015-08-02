@@ -31,8 +31,8 @@ def scrape_list(url)
 
     data = { 
       id: datatab.css('img/@class').text[/wp-image-(\d+)/, 1],
-      name: "#{family_name} #{given_name}",
-      sort_name: "#{given_name}, #{family_name}",
+      name: "#{given_name} #{family_name}",
+      sort_name: "#{family_name}, #{given_name}",
       family_name: family_name,
       given_name: given_name,
       area: tds[2].text.tidy,
