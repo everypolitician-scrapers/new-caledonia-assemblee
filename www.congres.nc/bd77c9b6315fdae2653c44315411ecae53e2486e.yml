@@ -20,11 +20,11 @@ response:
     Server:
     - nginx/1.6.2
     Date:
-    - Sun, 02 Oct 2016 20:45:57 GMT
+    - Mon, 03 Oct 2016 02:24:04 GMT
     Content-Type:
     - text/html; charset=UTF-8
     Content-Length:
-    - '16587'
+    - '16621'
     Connection:
     - keep-alive
     Vary:
@@ -39,4 +39,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sun, 02 Oct 2016 20:45:58 GMT
+recorded_at: Mon, 03 Oct 2016 02:24:04 GMT
