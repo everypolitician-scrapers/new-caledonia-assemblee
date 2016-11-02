@@ -20,7 +20,7 @@ response:
     Server:
     - nginx/1.6.2
     Date:
-    - Tue, 01 Nov 2016 11:25:24 GMT
+    - Wed, 02 Nov 2016 22:48:16 GMT
     Content-Type:
     - text/html; charset=UTF-8
     Content-Length:
@@ -39,4 +39,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Tue, 01 Nov 2016 11:25:25 GMT
+recorded_at: Wed, 02 Nov 2016 22:48:17 GMT
