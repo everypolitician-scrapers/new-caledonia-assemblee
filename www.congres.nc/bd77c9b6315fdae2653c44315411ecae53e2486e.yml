@@ -9,7 +9,7 @@ request:
     Accept-Encoding:
     - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
     Accept:
-    - '*/*'
+    - "*/*"
     User-Agent:
     - Ruby
 response:
@@ -20,11 +20,11 @@ response:
     Server:
     - nginx/1.6.2
     Date:
-    - Tue, 20 Dec 2016 07:12:54 GMT
+    - Thu, 22 Dec 2016 13:03:56 GMT
     Content-Type:
     - text/html; charset=UTF-8
     Content-Length:
-    - '16339'
+    - '16361'
     Connection:
     - keep-alive
     Vary:
@@ -34,9 +34,9 @@ response:
     X-Pingback:
     - http://www.congres.nc/xmlrpc.php
     Link:
-    - <http://www.congres.nc/?p=9281>; rel=shortlink
+    - "<http://www.congres.nc/?p=9281>; rel=shortlink"
     - <http://www.congres.nc/wp-json/>; rel="https://api.w.org/"
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Tue, 20 Dec 2016 07:12:55 GMT
+recorded_at: Thu, 22 Dec 2016 13:03:57 GMT
