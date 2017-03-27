@@ -20,26 +20,26 @@ response:
     Server:
     - nginx/1.6.2
     Date:
-    - Sun, 26 Mar 2017 11:39:26 GMT
+    - Mon, 27 Mar 2017 11:05:58 GMT
     Content-Type:
     - text/html; charset=UTF-8
     Content-Length:
-    - '23072'
+    - '23622'
     Connection:
     - keep-alive
-    Vary:
-    - Accept-Encoding
     X-Powered-By:
     - PHP/5.6.9
     Set-Cookie:
-    - wfvt_498819328=58d7a86d22c3f; expires=Sun, 26-Mar-2017 12:09:25 GMT; Max-Age=1800;
+    - wfvt_498819328=58d8f2141319a; expires=Mon, 27-Mar-2017 11:35:56 GMT; Max-Age=1800;
       path=/; httponly
     X-Pingback:
     - http://www.congres.nc/xmlrpc.php
     Link:
     - "<http://www.congres.nc/?p=9281>; rel=shortlink"
     - <http://www.congres.nc/wp-json/>; rel="https://api.w.org/"
+    Vary:
+    - Accept-Encoding
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sun, 26 Mar 2017 11:39:26 GMT
+recorded_at: Mon, 27 Mar 2017 11:05:58 GMT
