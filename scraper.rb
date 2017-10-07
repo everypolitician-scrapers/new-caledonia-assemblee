@@ -36,7 +36,7 @@ def scrape_list(url)
       source:      url,
     }
     data[:image] = '' if data[:image].include?('no-elu.jpg') || data[:image].include?('img-elus.jpg')
-    ScraperWiki.save_sqlite(%i(id term), data)
+    ScraperWiki.save_sqlite(%i[id term], data)
   end
 end
 
