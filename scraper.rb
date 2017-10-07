@@ -32,7 +32,6 @@ def scrape_list(url)
       area:        tds[2].text.tidy,
       party:       tds[3].text.tidy,
       image:       datatab.css('img/@src').text,
-      term:        '4',
       source:      url,
     }
     data[:image] = '' if data[:image].include?('no-elu.jpg') || data[:image].include?('img-elus.jpg')
@@ -44,4 +43,4 @@ data = scrape_list('http://www.congres.nc/assemblee/les-elus/?panel=5')
 data.each { |mem| puts mem.reject { |_, v| v.to_s.empty? }.sort_by { |k, _| k }.to_h } if ENV['MORPH_DEBUG']
 
 ScraperWiki.sqliteexecute('DROP TABLE data') rescue nil
-ScraperWiki.save_sqlite(%i[id term], data)
+ScraperWiki.save_sqlite(%i[id], data)
