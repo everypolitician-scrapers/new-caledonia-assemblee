@@ -36,6 +36,7 @@ def scrape_list(url)
       source:      url,
     }
     data[:image] = '' if data[:image].include?('no-elu.jpg') || data[:image].include?('img-elus.jpg')
+    puts data.reject { |_, v| v.to_s.empty? }.sort_by { |k, _| k }.to_h if ENV['MORPH_DEBUG']
     ScraperWiki.save_sqlite(%i[id term], data)
   end
 end
