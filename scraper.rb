@@ -17,7 +17,7 @@ end
 def scrape_list(url)
   noko = noko_for(url)
 
-  noko.css('#table-elus tr').drop(1).each do |tr|
+  noko.css('#table-elus tr').drop(1).map do |tr|
     tds = tr.css('td')
     family_name = tds[0].text.tidy
     given_name = tds[1].text.tidy
@@ -36,10 +36,12 @@ def scrape_list(url)
       source:      url,
     }
     data[:image] = '' if data[:image].include?('no-elu.jpg') || data[:image].include?('img-elus.jpg')
-    puts data.reject { |_, v| v.to_s.empty? }.sort_by { |k, _| k }.to_h if ENV['MORPH_DEBUG']
-    ScraperWiki.save_sqlite(%i[id term], data)
+    data
   end
 end
 
+data = scrape_list('http://www.congres.nc/assemblee/les-elus/?panel=5')
+data.each { |mem| puts mem.reject { |_, v| v.to_s.empty? }.sort_by { |k, _| k }.to_h } if ENV['MORPH_DEBUG']
+
 ScraperWiki.sqliteexecute('DROP TABLE data') rescue nil
-scrape_list('http://www.congres.nc/assemblee/les-elus/?panel=5')
+ScraperWiki.save_sqlite(%i[id term], data)
