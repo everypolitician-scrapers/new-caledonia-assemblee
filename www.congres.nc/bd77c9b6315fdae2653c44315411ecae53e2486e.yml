@@ -20,18 +20,18 @@ response:
     Server:
     - nginx/1.6.2
     Date:
-    - Sat, 28 Apr 2018 06:57:16 GMT
+    - Sun, 29 Apr 2018 16:06:48 GMT
     Content-Type:
     - text/html; charset=UTF-8
     Content-Length:
-    - '25054'
+    - '25058'
     Connection:
     - keep-alive
     X-Powered-By:
     - PHP/5.6.33
     Set-Cookie:
-    - PHPSESSID=23aee46de85f88a24a21b12f752c6c75; path=/; HttpOnly
-    - wfvt_498819328=5ae41b4bbcc41; expires=Sat, 28-Apr-2018 07:27:15 GMT; Max-Age=1800;
+    - PHPSESSID=6851a12f936075a94ade9acbc8d14342; path=/; HttpOnly
+    - wfvt_498819328=5ae5ed964f228; expires=Sun, 29-Apr-2018 16:36:46 GMT; Max-Age=1800;
       path=/; httponly
     Expires:
     - Thu, 19 Nov 1981 08:52:00 GMT
@@ -55,4 +55,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sat, 28 Apr 2018 06:57:17 GMT
+recorded_at: Sun, 29 Apr 2018 16:06:48 GMT
