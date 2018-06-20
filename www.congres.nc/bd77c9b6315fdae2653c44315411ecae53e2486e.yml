@@ -20,18 +20,15 @@ response:
     Server:
     - nginx/1.6.2
     Date:
-    - Tue, 19 Jun 2018 03:29:05 GMT
+    - Wed, 20 Jun 2018 08:23:00 GMT
     Content-Type:
     - text/html; charset=UTF-8
     Content-Length:
-    - '25054'
+    - '25162'
     Connection:
     - keep-alive
     X-Powered-By:
     - PHP/5.6.33
-    Set-Cookie:
-    - wfvt_498819328=5b2878800cb36; expires=Tue, 19-Jun-2018 03:59:04 GMT; Max-Age=1800;
-      path=/; httponly
     X-Pingback:
     - http://www.congres.nc/xmlrpc.php
     Link:
@@ -48,4 +45,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Tue, 19 Jun 2018 03:29:05 GMT
+recorded_at: Wed, 20 Jun 2018 08:23:01 GMT
