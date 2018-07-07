@@ -20,11 +20,11 @@ response:
     Server:
     - nginx/1.6.2
     Date:
-    - Fri, 06 Jul 2018 13:51:43 GMT
+    - Sat, 07 Jul 2018 20:10:40 GMT
     Content-Type:
     - text/html; charset=UTF-8
     Content-Length:
-    - '25132'
+    - '25131'
     Connection:
     - keep-alive
     X-Powered-By:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Fri, 06 Jul 2018 13:51:44 GMT
+recorded_at: Sat, 07 Jul 2018 20:10:41 GMT
